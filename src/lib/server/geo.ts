@@ -1,5 +1,4 @@
-import { readFileSync } from 'fs';
-import { resolve } from 'path';
+import geojsonData from '$lib/data/berlin_bezirke.json';
 
 type Polygon = [number, number][][];
 
@@ -14,8 +13,7 @@ let bezirkGeoCache: Map<string, BezirkGeo> | null = null;
 function loadGeoData(): Map<string, BezirkGeo> {
 	if (bezirkGeoCache) return bezirkGeoCache;
 
-	const raw = readFileSync(resolve('static/berlin_bezirke.geojson'), 'utf-8');
-	const geojson = JSON.parse(raw);
+	const geojson = geojsonData as any;
 	bezirkGeoCache = new Map();
 
 	for (const feature of geojson.features) {

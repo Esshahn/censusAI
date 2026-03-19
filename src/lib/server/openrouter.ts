@@ -1,8 +1,7 @@
 import { env } from '$env/dynamic/private';
 import type { Persona, LLMResponse } from '$lib/types';
 import { personaToSteckbrief } from './persona-generator';
-import { readFileSync } from 'fs';
-import { resolve } from 'path';
+import { SYSTEM_PROMPT } from '$lib/data/system-prompt';
 import { log } from './logger';
 
 function getApiKey(): string {
@@ -13,22 +12,13 @@ function getApiKey(): string {
 	return key;
 }
 
-let systemPromptCache: string | null = null;
-
-function getSystemPrompt(): string {
-	if (!systemPromptCache) {
-		systemPromptCache = readFileSync(resolve('system-prompt.md'), 'utf-8');
-	}
-	return systemPromptCache;
-}
-
 export async function queryPersona(
 	persona: Persona,
 	question: string,
 	model: string
 ): Promise<LLMResponse> {
 	const steckbrief = personaToSteckbrief(persona);
-	const systemPrompt = getSystemPrompt();
+	const systemPrompt = SYSTEM_PROMPT;
 
 	log('INFO', 'queryPersona', `Querying persona ${persona.id} (${persona.name}), model=${model}`);
 

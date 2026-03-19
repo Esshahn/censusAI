@@ -5,6 +5,10 @@ import { generatePersonas } from '$lib/server/persona-generator';
 import { queryBatch } from '$lib/server/openrouter';
 import type { LLMResponse } from '$lib/types';
 
+export const config = {
+	maxDuration: 300 // 5 minutes for large simulations
+};
+
 const DEFAULT_MODEL = 'anthropic/claude-sonnet-4';
 
 export const POST: RequestHandler = async ({ request }) => {
