@@ -1,0 +1,350 @@
+[
+  {
+    "id": "mitte",
+    "name": "Mitte",
+    "einwohner": 397000,
+    "durchschnittsalter": 39.3,
+    "altersverteilung": {
+      "18-24": 0.09, "25-34": 0.22, "35-44": 0.18,
+      "45-54": 0.14, "55-64": 0.13, "65-74": 0.10, "75+": 0.07
+    },
+    "geschlecht": { "m": 0.51, "w": 0.49, "d": 0.002 },
+    "migrationshintergrund": 0.59,
+    "auslaenderanteil": 0.37,
+    "hauptherkunft": ["Türkei", "Polen", "Syrien", "Ukraine", "Italien"],
+    "bildung": {
+      "ohne_abschluss": 0.05, "hauptschule": 0.10, "realschule": 0.15,
+      "abitur": 0.30, "studium": 0.35, "promotion": 0.05
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.52, "selbstaendig": 0.12, "arbeitslos": 0.055,
+      "rente": 0.15, "ausbildung_studium": 0.10, "sonstiges": 0.055
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.20, "SPD": 0.18, "Gruene": 0.28, "Linke": 0.15,
+      "AfD": 0.06, "FDP": 0.04, "Sonstige": 0.09
+    },
+    "sozialindex": "mittel_bis_niedrig",
+    "miete_durchschnitt": 11.50,
+    "bbox": { "lat_min": 52.503, "lat_max": 52.545, "lng_min": 13.330, "lng_max": 13.420 }
+  },
+  {
+    "id": "friedrichshain-kreuzberg",
+    "name": "Friedrichshain-Kreuzberg",
+    "einwohner": 290000,
+    "durchschnittsalter": 39.3,
+    "altersverteilung": {
+      "18-24": 0.10, "25-34": 0.28, "35-44": 0.20,
+      "45-54": 0.12, "55-64": 0.10, "65-74": 0.08, "75+": 0.05
+    },
+    "geschlecht": { "m": 0.50, "w": 0.50, "d": 0.003 },
+    "migrationshintergrund": 0.50,
+    "auslaenderanteil": 0.30,
+    "hauptherkunft": ["Türkei", "Polen", "Italien", "Frankreich", "USA"],
+    "bildung": {
+      "ohne_abschluss": 0.04, "hauptschule": 0.08, "realschule": 0.12,
+      "abitur": 0.32, "studium": 0.38, "promotion": 0.06
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.48, "selbstaendig": 0.18, "arbeitslos": 0.05,
+      "rente": 0.10, "ausbildung_studium": 0.14, "sonstiges": 0.05
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.10, "SPD": 0.14, "Gruene": 0.38, "Linke": 0.18,
+      "AfD": 0.04, "FDP": 0.03, "Sonstige": 0.13
+    },
+    "sozialindex": "mittel",
+    "miete_durchschnitt": 12.00,
+    "bbox": { "lat_min": 52.488, "lat_max": 52.520, "lng_min": 13.380, "lng_max": 13.470 }
+  },
+  {
+    "id": "pankow",
+    "name": "Pankow",
+    "einwohner": 427000,
+    "durchschnittsalter": 42.0,
+    "altersverteilung": {
+      "18-24": 0.07, "25-34": 0.18, "35-44": 0.19,
+      "45-54": 0.14, "55-64": 0.14, "65-74": 0.12, "75+": 0.09
+    },
+    "geschlecht": { "m": 0.49, "w": 0.51, "d": 0.002 },
+    "migrationshintergrund": 0.28,
+    "auslaenderanteil": 0.17,
+    "hauptherkunft": ["Vietnam", "Polen", "Russland", "Ukraine", "Frankreich"],
+    "bildung": {
+      "ohne_abschluss": 0.03, "hauptschule": 0.07, "realschule": 0.15,
+      "abitur": 0.30, "studium": 0.38, "promotion": 0.07
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.55, "selbstaendig": 0.14, "arbeitslos": 0.04,
+      "rente": 0.14, "ausbildung_studium": 0.08, "sonstiges": 0.05
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.22, "SPD": 0.16, "Gruene": 0.28, "Linke": 0.14,
+      "AfD": 0.07, "FDP": 0.04, "Sonstige": 0.09
+    },
+    "sozialindex": "mittel_bis_hoch",
+    "miete_durchschnitt": 10.50,
+    "bbox": { "lat_min": 52.540, "lat_max": 52.600, "lng_min": 13.370, "lng_max": 13.470 }
+  },
+  {
+    "id": "charlottenburg-wilmersdorf",
+    "name": "Charlottenburg-Wilmersdorf",
+    "einwohner": 340000,
+    "durchschnittsalter": 45.2,
+    "altersverteilung": {
+      "18-24": 0.08, "25-34": 0.16, "35-44": 0.15,
+      "45-54": 0.14, "55-64": 0.14, "65-74": 0.14, "75+": 0.12
+    },
+    "geschlecht": { "m": 0.48, "w": 0.52, "d": 0.002 },
+    "migrationshintergrund": 0.38,
+    "auslaenderanteil": 0.22,
+    "hauptherkunft": ["Türkei", "Polen", "Iran", "Russland", "USA"],
+    "bildung": {
+      "ohne_abschluss": 0.03, "hauptschule": 0.08, "realschule": 0.13,
+      "abitur": 0.28, "studium": 0.40, "promotion": 0.08
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.50, "selbstaendig": 0.14, "arbeitslos": 0.045,
+      "rente": 0.20, "ausbildung_studium": 0.07, "sonstiges": 0.045
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.30, "SPD": 0.15, "Gruene": 0.24, "Linke": 0.08,
+      "AfD": 0.06, "FDP": 0.07, "Sonstige": 0.10
+    },
+    "sozialindex": "hoch",
+    "miete_durchschnitt": 12.50,
+    "bbox": { "lat_min": 52.475, "lat_max": 52.530, "lng_min": 13.240, "lng_max": 13.340 }
+  },
+  {
+    "id": "spandau",
+    "name": "Spandau",
+    "einwohner": 259000,
+    "durchschnittsalter": 43.0,
+    "altersverteilung": {
+      "18-24": 0.07, "25-34": 0.14, "35-44": 0.16,
+      "45-54": 0.15, "55-64": 0.15, "65-74": 0.14, "75+": 0.12
+    },
+    "geschlecht": { "m": 0.49, "w": 0.51, "d": 0.001 },
+    "migrationshintergrund": 0.35,
+    "auslaenderanteil": 0.22,
+    "hauptherkunft": ["Türkei", "Polen", "Russland", "Syrien", "Rumänien"],
+    "bildung": {
+      "ohne_abschluss": 0.07, "hauptschule": 0.15, "realschule": 0.22,
+      "abitur": 0.25, "studium": 0.27, "promotion": 0.04
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.52, "selbstaendig": 0.08, "arbeitslos": 0.065,
+      "rente": 0.20, "ausbildung_studium": 0.07, "sonstiges": 0.065
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.32, "SPD": 0.20, "Gruene": 0.12, "Linke": 0.08,
+      "AfD": 0.12, "FDP": 0.04, "Sonstige": 0.12
+    },
+    "sozialindex": "mittel_bis_niedrig",
+    "miete_durchschnitt": 9.00,
+    "bbox": { "lat_min": 52.510, "lat_max": 52.580, "lng_min": 13.140, "lng_max": 13.260 }
+  },
+  {
+    "id": "steglitz-zehlendorf",
+    "name": "Steglitz-Zehlendorf",
+    "einwohner": 310000,
+    "durchschnittsalter": 46.6,
+    "altersverteilung": {
+      "18-24": 0.07, "25-34": 0.12, "35-44": 0.14,
+      "45-54": 0.14, "55-64": 0.15, "65-74": 0.16, "75+": 0.15
+    },
+    "geschlecht": { "m": 0.47, "w": 0.53, "d": 0.001 },
+    "migrationshintergrund": 0.27,
+    "auslaenderanteil": 0.16,
+    "hauptherkunft": ["Türkei", "Polen", "USA", "Großbritannien", "Iran"],
+    "bildung": {
+      "ohne_abschluss": 0.02, "hauptschule": 0.06, "realschule": 0.12,
+      "abitur": 0.28, "studium": 0.42, "promotion": 0.10
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.48, "selbstaendig": 0.12, "arbeitslos": 0.03,
+      "rente": 0.25, "ausbildung_studium": 0.07, "sonstiges": 0.05
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.38, "SPD": 0.14, "Gruene": 0.22, "Linke": 0.06,
+      "AfD": 0.05, "FDP": 0.07, "Sonstige": 0.08
+    },
+    "sozialindex": "hoch",
+    "miete_durchschnitt": 11.00,
+    "bbox": { "lat_min": 52.420, "lat_max": 52.475, "lng_min": 13.200, "lng_max": 13.340 }
+  },
+  {
+    "id": "tempelhof-schoeneberg",
+    "name": "Tempelhof-Schöneberg",
+    "einwohner": 350000,
+    "durchschnittsalter": 43.0,
+    "altersverteilung": {
+      "18-24": 0.07, "25-34": 0.17, "35-44": 0.17,
+      "45-54": 0.14, "55-64": 0.14, "65-74": 0.13, "75+": 0.11
+    },
+    "geschlecht": { "m": 0.49, "w": 0.51, "d": 0.002 },
+    "migrationshintergrund": 0.37,
+    "auslaenderanteil": 0.23,
+    "hauptherkunft": ["Türkei", "Polen", "Bulgarien", "Italien", "Syrien"],
+    "bildung": {
+      "ohne_abschluss": 0.05, "hauptschule": 0.10, "realschule": 0.16,
+      "abitur": 0.28, "studium": 0.35, "promotion": 0.06
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.52, "selbstaendig": 0.12, "arbeitslos": 0.05,
+      "rente": 0.18, "ausbildung_studium": 0.08, "sonstiges": 0.05
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.26, "SPD": 0.17, "Gruene": 0.24, "Linke": 0.10,
+      "AfD": 0.07, "FDP": 0.05, "Sonstige": 0.11
+    },
+    "sozialindex": "mittel",
+    "miete_durchschnitt": 10.50,
+    "bbox": { "lat_min": 52.440, "lat_max": 52.495, "lng_min": 13.320, "lng_max": 13.410 }
+  },
+  {
+    "id": "neukoelln",
+    "name": "Neukölln",
+    "einwohner": 330000,
+    "durchschnittsalter": 41.0,
+    "altersverteilung": {
+      "18-24": 0.09, "25-34": 0.20, "35-44": 0.18,
+      "45-54": 0.14, "55-64": 0.13, "65-74": 0.11, "75+": 0.08
+    },
+    "geschlecht": { "m": 0.50, "w": 0.50, "d": 0.002 },
+    "migrationshintergrund": 0.52,
+    "auslaenderanteil": 0.25,
+    "hauptherkunft": ["Türkei", "arabische Länder", "Polen", "Rumänien", "Bulgarien"],
+    "bildung": {
+      "ohne_abschluss": 0.08, "hauptschule": 0.14, "realschule": 0.18,
+      "abitur": 0.26, "studium": 0.30, "promotion": 0.04
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.48, "selbstaendig": 0.10, "arbeitslos": 0.08,
+      "rente": 0.15, "ausbildung_studium": 0.12, "sonstiges": 0.07
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.20, "SPD": 0.18, "Gruene": 0.20, "Linke": 0.16,
+      "AfD": 0.10, "FDP": 0.04, "Sonstige": 0.12
+    },
+    "sozialindex": "niedrig",
+    "miete_durchschnitt": 9.50,
+    "bbox": { "lat_min": 52.440, "lat_max": 52.490, "lng_min": 13.400, "lng_max": 13.490 }
+  },
+  {
+    "id": "treptow-koepenick",
+    "name": "Treptow-Köpenick",
+    "einwohner": 280000,
+    "durchschnittsalter": 44.0,
+    "altersverteilung": {
+      "18-24": 0.06, "25-34": 0.14, "35-44": 0.16,
+      "45-54": 0.15, "55-64": 0.16, "65-74": 0.15, "75+": 0.11
+    },
+    "geschlecht": { "m": 0.49, "w": 0.51, "d": 0.001 },
+    "migrationshintergrund": 0.26,
+    "auslaenderanteil": 0.15,
+    "hauptherkunft": ["Vietnam", "Polen", "Russland", "Ukraine", "Rumänien"],
+    "bildung": {
+      "ohne_abschluss": 0.04, "hauptschule": 0.10, "realschule": 0.20,
+      "abitur": 0.28, "studium": 0.33, "promotion": 0.05
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.54, "selbstaendig": 0.08, "arbeitslos": 0.045,
+      "rente": 0.22, "ausbildung_studium": 0.06, "sonstiges": 0.055
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.28, "SPD": 0.18, "Gruene": 0.14, "Linke": 0.12,
+      "AfD": 0.14, "FDP": 0.04, "Sonstige": 0.10
+    },
+    "sozialindex": "mittel",
+    "miete_durchschnitt": 9.00,
+    "bbox": { "lat_min": 52.390, "lat_max": 52.470, "lng_min": 13.450, "lng_max": 13.650 }
+  },
+  {
+    "id": "marzahn-hellersdorf",
+    "name": "Marzahn-Hellersdorf",
+    "einwohner": 280000,
+    "durchschnittsalter": 43.0,
+    "altersverteilung": {
+      "18-24": 0.07, "25-34": 0.14, "35-44": 0.16,
+      "45-54": 0.15, "55-64": 0.16, "65-74": 0.14, "75+": 0.11
+    },
+    "geschlecht": { "m": 0.49, "w": 0.51, "d": 0.001 },
+    "migrationshintergrund": 0.28,
+    "auslaenderanteil": 0.17,
+    "hauptherkunft": ["Vietnam", "Russland", "Kasachstan", "Ukraine", "Polen"],
+    "bildung": {
+      "ohne_abschluss": 0.06, "hauptschule": 0.12, "realschule": 0.24,
+      "abitur": 0.26, "studium": 0.28, "promotion": 0.04
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.52, "selbstaendig": 0.06, "arbeitslos": 0.07,
+      "rente": 0.22, "ausbildung_studium": 0.07, "sonstiges": 0.06
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.22, "SPD": 0.16, "Gruene": 0.08, "Linke": 0.18,
+      "AfD": 0.22, "FDP": 0.03, "Sonstige": 0.11
+    },
+    "sozialindex": "niedrig",
+    "miete_durchschnitt": 7.50,
+    "bbox": { "lat_min": 52.510, "lat_max": 52.570, "lng_min": 13.540, "lng_max": 13.650 }
+  },
+  {
+    "id": "lichtenberg",
+    "name": "Lichtenberg",
+    "einwohner": 310000,
+    "durchschnittsalter": 42.0,
+    "altersverteilung": {
+      "18-24": 0.07, "25-34": 0.16, "35-44": 0.17,
+      "45-54": 0.14, "55-64": 0.15, "65-74": 0.14, "75+": 0.10
+    },
+    "geschlecht": { "m": 0.49, "w": 0.51, "d": 0.001 },
+    "migrationshintergrund": 0.32,
+    "auslaenderanteil": 0.20,
+    "hauptherkunft": ["Vietnam", "Russland", "Ukraine", "Polen", "Rumänien"],
+    "bildung": {
+      "ohne_abschluss": 0.05, "hauptschule": 0.10, "realschule": 0.22,
+      "abitur": 0.27, "studium": 0.31, "promotion": 0.05
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.53, "selbstaendig": 0.08, "arbeitslos": 0.06,
+      "rente": 0.20, "ausbildung_studium": 0.08, "sonstiges": 0.05
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.20, "SPD": 0.16, "Gruene": 0.12, "Linke": 0.22,
+      "AfD": 0.16, "FDP": 0.03, "Sonstige": 0.11
+    },
+    "sozialindex": "mittel_bis_niedrig",
+    "miete_durchschnitt": 8.50,
+    "bbox": { "lat_min": 52.500, "lat_max": 52.560, "lng_min": 13.450, "lng_max": 13.550 }
+  },
+  {
+    "id": "reinickendorf",
+    "name": "Reinickendorf",
+    "einwohner": 270000,
+    "durchschnittsalter": 44.0,
+    "altersverteilung": {
+      "18-24": 0.07, "25-34": 0.13, "35-44": 0.15,
+      "45-54": 0.15, "55-64": 0.15, "65-74": 0.15, "75+": 0.13
+    },
+    "geschlecht": { "m": 0.49, "w": 0.51, "d": 0.001 },
+    "migrationshintergrund": 0.33,
+    "auslaenderanteil": 0.20,
+    "hauptherkunft": ["Türkei", "Polen", "Russland", "Libanon", "Syrien"],
+    "bildung": {
+      "ohne_abschluss": 0.06, "hauptschule": 0.13, "realschule": 0.20,
+      "abitur": 0.26, "studium": 0.30, "promotion": 0.05
+    },
+    "erwerbsstatus": {
+      "angestellt": 0.52, "selbstaendig": 0.08, "arbeitslos": 0.06,
+      "rente": 0.22, "ausbildung_studium": 0.06, "sonstiges": 0.06
+    },
+    "wahlverhalten_agh2023": {
+      "CDU": 0.34, "SPD": 0.18, "Gruene": 0.12, "Linke": 0.08,
+      "AfD": 0.12, "FDP": 0.04, "Sonstige": 0.12
+    },
+    "sozialindex": "mittel_bis_niedrig",
+    "miete_durchschnitt": 8.50,
+    "bbox": { "lat_min": 52.555, "lat_max": 52.620, "lng_min": 13.270, "lng_max": 13.390 }
+  }
+]
