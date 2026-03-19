@@ -13,6 +13,18 @@
 	// Berlin bounds to lock the view
 	const berlinBounds: [[number, number], [number, number]] = [[52.34, 13.08], [52.68, 13.77]];
 
+	function animateRadius(marker: any, from: number, to: number, duration: number) {
+		const start = performance.now();
+		function step(now: number) {
+			const t = Math.min((now - start) / duration, 1);
+			const eased = 1 - Math.pow(1 - t, 3); // ease-out cubic
+			marker.setRadius(from + (to - from) * eased);
+			if (t < 1) requestAnimationFrame(step);
+		}
+		marker.setRadius(from);
+		requestAnimationFrame(step);
+	}
+
 	function getColor(persona: Persona): string {
 		if (persona.haltung === undefined) return '#9CA3AF';
 		switch (persona.haltung) {
@@ -117,8 +129,13 @@
 		for (const persona of personas) {
 			const existing = markers.get(persona.id);
 			if (existing) {
-				existing.setStyle({ fillColor: getColor(persona), color: getColor(persona) });
+				const prevColor = existing.options.fillColor;
+				const newColor = getColor(persona);
+				existing.setStyle({ fillColor: newColor, color: newColor });
 				existing.setTooltipContent(buildTooltip(persona));
+				if (prevColor !== newColor) {
+					animateRadius(existing, 14, 7, 400);
+				}
 			} else {
 				const marker = L.circleMarker([persona.lat, persona.lng], {
 					radius: 7,
